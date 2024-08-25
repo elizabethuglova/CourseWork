@@ -972,9 +972,9 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    //Decrypt(); DecryptE();
+    Decrypt(); DecryptE();
     while (flag_of_end) {             
         MainMenu();
     }
-    //Crypt(); CryptE();
+    Crypt(); CryptE();
 }
